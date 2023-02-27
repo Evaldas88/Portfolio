@@ -1,22 +1,65 @@
 body {
     margin: 0px;
     font-family: 'Open Sans', sans-serif;
-     transition: 2s;
-    background: #E9F1FA;
+    transition: 2s;
+    background: #f8f9f9;
 }
+
+/* .container {} */
 
 /* Navigation */
-nav{
+nav {
     display: flex;
     height: 100px;
-    justify-content: space-evenly ;
+    justify-content: space-evenly;
     align-items: center;
-    background-color:#00ABE4;
+    background-color: #e7edf4;
 
 }
+
 .navigation {
     font-size: 1.2rem;
     text-decoration: none;
-    color:  black;
+    color: black;
     transition: font-size 0.4s, color 1.2s ease-in !important;
+}
+
+/* About me  */
+
+
+.row {
+    flex: 50%;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+p {
+    padding-top: 2%;
+}
+
+/* Sections */
+
+section section:nth-child(odd) {
+    background: #e7edf4;
+
+}
+
+.caption {
+    padding-top: 5px;
+    text-align: center;
+}
+
+/* Projects */
+
+ h1 {
+    padding-top: 40px;
+    text-align: center;
+    align-items: center;
+}
+
+.texts {
+    text-align: center;
 }
