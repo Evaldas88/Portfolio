@@ -60,6 +60,22 @@ section section:nth-child(odd) {
     align-items: center;
 }
 
-.texts {
+ /* More button */
+
+ #more-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-}
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #494949;
+    color: #ece8d9;
+    text-decoration: none;
+    opacity: 0.5;
+    transition: opacity 0.2s, font-size 0.4s;
+    margin: 10px;
+    cursor: pointer;
+  }
+  

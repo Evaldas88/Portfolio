@@ -1,5 +1,5 @@
 .slideshow-container {
-  max-width: 800px;
+  max-width: 1000px;
   position: relative;
   margin: auto;
 }
@@ -8,8 +8,7 @@
 .mySlides2,
 .mySlides3,
 .mySlides4,
-.mySlides5,
-.mySlides6 {
+.mySlides5 {
   margin: auto;
   text-align: center;
   display: none;
@@ -19,11 +18,10 @@
 .mySlides2 img,
 .mySlides3 img,
 .mySlides4 img,
-.mySlides5 img,
-.mySlides6 img {
+.mySlides5 img {
   border: none;
   border-radius: 10px;
-  width: 60%;
+  width: 80%;
 }
 
 /* Next & previous buttons */
@@ -77,8 +75,7 @@
 .dot2,
 .dot3,
 .dot4,
-.dot5,
-.dot6 {
+.dot5 {
   cursor: pointer;
   height: 15px;
   width: 15px;
@@ -94,10 +91,17 @@
 .dot2:hover,
 .dot3:hover,
 .dot4:hover,
-.dot5:hover,
-.dot6:hover {
+.dot5:hover {
   background-color: #717171;
 }
+
+/* Load more */
+
+#more {
+  display: none;
+}
+
+
 
 /* github links */
 .git-container {
@@ -140,8 +144,7 @@
     .dot2,
     .dot3,
     .dot4,
-    .dot5,
-    .dot6 {
+    .dot5 {
       margin: 50px 4px 30px 0px;
 
     }
