@@ -1,3 +1,5 @@
+
+//Slide SHOW
 // FIRST SLIDES
 
 let slideIndex = 1;
@@ -161,7 +163,7 @@ for (let i = 0, length = projects.length; i < length; i++) {
 }
 
 
-// More button
+// More button function
 
 const button = document.getElementById('more-btn');
 
@@ -182,3 +184,5 @@ button.addEventListener('click', function() {
   }
  
 });
+
+ 
