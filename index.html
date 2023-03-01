@@ -24,7 +24,20 @@
         you can find some information about me, my projects and contact information." />
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/slides.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Montserrat&family=Roboto:ital,wght@1,100&display=swap"
+        rel="stylesheet">
     <title>Evaldas Skackauskas portfolio</title>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q8RZ3QVWTM"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-Q8RZ3QVWTM');
+    </script>
 </head>
 
 <body>
@@ -35,11 +48,10 @@
             <a class="navigation btn-contacts" href="#contacts">Contacts</a>
         </nav>
     </header>
-
     <header id="about">
         <div class="container">
             <div class="row">
-                <h1>Hello I'm Evaldas</h1>
+                <h1>Hello I'm Evaldas Skackauskas</h1>
                 <p>I have decided to change my career path recently, so I have learnt programming.
                     I am looking for an internship as a front end or back end programmer. The languages include:
                     PHP,
@@ -51,7 +63,9 @@
             </div>
         </div>
     </header>
-
+    <a href="#" class="to-top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
     <section id="projects" class="projects">
         <div>
             <section class="section-class">
@@ -103,7 +117,6 @@
             </section>
             <section>
                 <h1>File manager app</h1>
-
                 <!-- Slideshow container -->
                 <div class="slideshow-container">
                     <!-- Full-width images with number and caption text -->
@@ -134,8 +147,6 @@
                     <span class="dot2" onclick="currentSlide2(3)"></span>
                 </div>
             </section>
-
-
             <div id="more">
                 <section class="section-class">
                     <h1>Hotels booking app</h1>
@@ -207,7 +218,6 @@
                     </div>
                 </section>
                 <section>
-
                     <h1>Flights management app</h1>
                     <!-- Slideshow container -->
                     <div class="slideshow-container">
@@ -231,8 +241,7 @@
                             <div class="numbertext">4 / 5</div>
                             <img src="image/Flights/flight4.png" alt="Content management system" />
                             <div class="caption">Page of Countries list. You can add, edit or delete. All changes also
-                                will
-                                be saved in Database</div>
+                                will be saved in Database</div>
                         </div>
                     </div>
                     <div class="mySlides4 fade">
@@ -241,7 +250,6 @@
                         <div class="caption">Page of Passenger. You can add, edit, select destination or delete. All
                             changes also will be saved in Databae</div>
                     </div>
-
                     <!-- Next and previous buttons -->
                     <p class="prev" onclick="plusSlides4(-1)">&#10094;</p>
                     <p class="next" onclick="plusSlides4(1)">&#10095;</p>
@@ -255,61 +263,59 @@
                 <span class="dot4" onclick="currentSlide4(4)"></span>
                 <span class="dot4" onclick="currentSlide4(5)"></span>
             </div>
-            <section class="section-class">
-                <h1>Project management</h1>
-
-                <!-- Slideshow container -->
-                <div class="slideshow-container">
-                    <!-- Full-width images with number and caption text -->
-                    <div class="mySlides5 fade">
-                        <div class="numbertext">1 / 4</div>
-                        <img src="image/PM with mysql/PM with mysql.png" alt="Content management system" />
-                        <div class="caption">Project view. You can see project and people assigned to the project </div>
-                    </div>
-                    <div class="mySlides5 fade">
-                        <div class="numbertext">2 / 4</div>
-                        <img src="image/PM with mysql/PM with mysql2.png" alt="Content management system" />
-                        <div class="caption">People page. Where you can create new person and select project. Edit or
-                            delete people. All changes will be updated in database</div>
-                    </div>
-                    <div class="mySlides5 fade">
-                        <div class="numbertext">3 / 4</div>
-                        <img src="image/PM with mysql/PM with mysql3.png" alt="Content management system" />
-                        <div class="caption">Update page of people</div>
-                    </div>
-                    <div class="mySlides5 fade">
-                        <div class="numbertext">4 / 4</div>
-                        <img src="image/PM with mysql/PM with mysql4.png" alt="Content management system" />
-                        <div class="caption">Edit projects (projects name will will appear in input field)</div>
-                    </div>
-
-                    <!-- Next and previous buttons -->
-                    <p class="prev" onclick="plusSlides5(-1)">&#10094;</p>
-                    <p class="next" onclick="plusSlides5(1)">&#10095;</p>
-                </div>
-                <br />
-                <!-- The dots/circles -->
-                <div style="text-align: center">
-                    <span class="dot5" onclick="currentSlide5(1)"></span>
-                    <span class="dot5" onclick="currentSlide5(2)"></span>
-                    <span class="dot5" onclick="currentSlide5(3)"></span>
-                    <span class="dot5" onclick="currentSlide5(4)"></span>
-                </div>
-            </section>
+    </section>
+    <section class="section-class">
+        <h1>Project management</h1>
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides5 fade">
+                <div class="numbertext">1 / 4</div>
+                <img src="image/PM with mysql/PM with mysql.png" alt="Content management system" />
+                <div class="caption">Project view. You can see project and people assigned to the project </div>
+            </div>
+            <div class="mySlides5 fade">
+                <div class="numbertext">2 / 4</div>
+                <img src="image/PM with mysql/PM with mysql2.png" alt="Content management system" />
+                <div class="caption">People page. Where you can create new person and select project. Edit or
+                    delete people. All changes will be updated in database</div>
+            </div>
+            <div class="mySlides5 fade">
+                <div class="numbertext">3 / 4</div>
+                <img src="image/PM with mysql/PM with mysql3.png" alt="Content management system" />
+                <div class="caption">Update page of people</div>
+            </div>
+            <div class="mySlides5 fade">
+                <div class="numbertext">4 / 4</div>
+                <img src="image/PM with mysql/PM with mysql4.png" alt="Content management system" />
+                <div class="caption">Edit projects (projects name will will appear in input field)</div>
+            </div>
+            <!-- Next and previous buttons -->
+            <p class="prev" onclick="plusSlides5(-1)">&#10094;</p>
+            <p class="next" onclick="plusSlides5(1)">&#10095;</p>
         </div>
+        <br />
+        <!-- The dots/circles -->
+        <div style="text-align: center">
+            <span class="dot5" onclick="currentSlide5(1)"></span>
+            <span class="dot5" onclick="currentSlide5(2)"></span>
+            <span class="dot5" onclick="currentSlide5(3)"></span>
+            <span class="dot5" onclick="currentSlide5(4)"></span>
+        </div>
+        <div style="display: flex; justify-content: center;">
+            <div id="more-btn" href="#more">Read more </div>
         </div>
     </section>
-    <div style="display: flex; justify-content: center;">
-        <div id="more-btn" href="#more">Read more </div>
     </div>
-    <footer>
+    </div>
+    </section>
+    <footer id="contacts">
         <div class="footer">
-            <a href="https://www.linkedin.com/in/evaldas-skackauskas/" target="_blank" rel="noopener">
-                <i class="fa-brands fa-linkedin"></i>
-            </a>
-           <span> &copy; <script>document.write(new Date().getFullYear());</script> Author: Evaldas Skackauskas</span>
-            
-
+            <a href="https://www.linkedin.com/in/evaldas-skackauskas/" target="_blank" rel="noopener"><i
+                    class="fa-brands fa-linkedin"></i> </a>
+            <span> &copy;
+                <script>document.write(new Date().getFullYear());</script> Author: Evaldas Skackauskas
+            </span>
         </div>
     </footer>
     <script src="slide.js"></script>

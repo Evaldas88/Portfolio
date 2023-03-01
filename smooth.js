@@ -1,5 +1,4 @@
-//Button  smooth slide
-//Projects
+//Projects button
 let project = document.getElementsByClassName("btn-project");
 for (let i = 0, length = project.length; i < length; i++) {
   project[i].addEventListener("click", function (event) {
@@ -9,7 +8,7 @@ for (let i = 0, length = project.length; i < length; i++) {
   });
 }
 
-//About 
+//About button
 let about = document.getElementsByClassName("btn-about");
 for (let i = 0, length = about.length; i < length; i++) {
   about[i].addEventListener("click", function (event) {
@@ -20,7 +19,7 @@ for (let i = 0, length = about.length; i < length; i++) {
 }
 
 
-//Contact
+//Contact button
 let contact = document.getElementsByClassName("btn-contacts");
 for (let i = 0, length = contact.length; i < length; i++) {
   contact[i].addEventListener("click", function (event) {
@@ -30,6 +29,16 @@ for (let i = 0, length = contact.length; i < length; i++) {
   });
 }
 
+//Arrow button slide up
+
+const toTop = document.querySelector(".to-top");
+window.addEventListener("scroll", () => {
+  if (window.pageYOffset > 100) {
+    toTop.classList.add("active");
+  } else {
+    toTop.classList.remove("active");
+  }
+})
 
 //Sticky navbar
 
