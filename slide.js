@@ -170,17 +170,16 @@ const button = document.getElementById('more-btn');
 button.addEventListener('click', function() {
   const moreProjects = document.getElementById('more');
   const btnText = document.getElementById("more-btn");
- 
   if(moreProjects.style.display === "block"){
     moreProjects.style.display = "block";
     btnText.innerHTML = "Read more"; 
     moreProjects.style.display = "none";
-    moreProjects.scrollIntoView({ behavior: "smooth" });
+         moreProjects.scrollIntoView({ behavior: "smooth" });
   }else {
     moreProjects.style.display = "none";
     btnText.innerHTML = "Read less"; 
     moreProjects.style.display = "block";
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+      window.scrollTo({ top: 0, behavior: 'smooth' });
   }
  
 });
