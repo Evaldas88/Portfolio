@@ -179,7 +179,7 @@ button.addEventListener('click', function() {
     moreProjects.style.display = "none";
     btnText.innerHTML = "Read less"; 
     moreProjects.style.display = "block";
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+    moreProjects.scrollIntoView({ behavior: "smooth" });
   }
  
 });
