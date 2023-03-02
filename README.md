@@ -1,8 +1,8 @@
 # Portfolio
 
-### Hello, I'm Evaldas Skackauskas!
+## Hello, I'm Evaldas Skackauskas!
  
-In this link you fill find few of my projects:
+In this link you will see my portfolio page:
 
 [Portfolio](https://evaldas88.github.io/Portfolio/)
 
