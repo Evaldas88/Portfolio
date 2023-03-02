@@ -198,6 +198,7 @@ i:hover {
 }
 
 .fa-arrow-up {
+    padding-left: 12px;
     padding-top: 12px;
     color: #ffffff;
     font-size: 20px;
