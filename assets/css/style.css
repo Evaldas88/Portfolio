@@ -113,6 +113,8 @@ h2 {
 div.more {
     display: flex;
     justify-content: center;
+    padding-bottom: 25px;
+
 }
 
 #more-btn {
